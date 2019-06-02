@@ -129,7 +129,7 @@ class Result extends React.Component {
                                 <TableCell className={classes.tableHeading} key='e'>{((this.state.OBTM*100)/this.state.TTM)>33?'Passed':'Fail'}</TableCell>
                         </TableRow>   
                         {/* {this.state.subjects.map((subjects, i)=>
-                        <TableCell key='a'>{subjects}</TableCell>
+                       
                         </TableRow>)} */}
                         
                             {/* <TableCell>Hindi</TableCell><TableCell>{this.state.resultdata.hindi}</TableCell><TableCell>{this.state.resultdata.hindiobtainmarks}</TableCell><TableCell>A1</TableCell>
