@@ -1,6 +1,5 @@
 import React from 'react';
 import AuthenticatedPage from "../AuthenticatedStudent";
-import Button from '@material-ui/core/Button';
 import PropTypes from 'prop-types';
 import Logbook from '../Logbook/Logbook';
 import GridContainer from "../../components/Grid/GridContainer.jsx";
