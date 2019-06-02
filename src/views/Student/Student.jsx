@@ -19,6 +19,7 @@ const styles = theme => ({
         paddingBottom: theme.spacing.unit * 1,
     },
     table: {
+        
         minWidth: 500,
     },
     tableWrapper: {
