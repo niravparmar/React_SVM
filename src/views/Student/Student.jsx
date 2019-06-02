@@ -10,6 +10,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCog } from '@fortawesome/free-solid-svg-icons';
 import MuiThemeDataTable from '../../components/MuiThemeDataTable';
 
+
+
 const styles = theme => ({
     root: {
         // padding : "1",
@@ -19,7 +21,7 @@ const styles = theme => ({
         paddingBottom: theme.spacing.unit * 1,
     },
     table: {
-        
+
         minWidth: 500,
     },
     tableWrapper: {
