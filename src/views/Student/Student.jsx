@@ -11,7 +11,6 @@ import { faCog } from '@fortawesome/free-solid-svg-icons';
 import MuiThemeDataTable from '../../components/MuiThemeDataTable';
 
 
-
 const styles = theme => ({
     root: {
         // padding : "1",
