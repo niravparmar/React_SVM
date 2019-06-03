@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import { defaultUserObj, UserLoggedInContextProvider} from "./views/LoggedInContext"
 import { Switch, Route, Redirect,BrowserRouter as Router} from "react-router-dom";
 import "./index.css";
@@ -129,7 +129,7 @@ class App extends React.Component {
       <MuiThemeProvider theme={theme}>
       <CssBaseline/>
         <UserLoggedInContextProvider value={this.state}>
-          <Suspense fallback={<Spinner />}>
+          {/* <Suspense fallback={<Spinner />}> */}
           <Router basename = {process.env.PUBLIC_URL}>
             <Switch>
             <Route path={`/print/:patientid`} component={PrintDetails}/>
@@ -145,7 +145,7 @@ class App extends React.Component {
               <Redirect to = '/public'/>
             </Switch>
          </Router>
-         </Suspense>
+         {/* </Suspense> */}
         </UserLoggedInContextProvider>
       </MuiThemeProvider>
     )
